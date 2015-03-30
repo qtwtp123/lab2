@@ -5,11 +5,10 @@
 #include"BMI.h"
 void BMI::yo()
 {
-	file();
+	file();//呼叫file function
 }
 void BMI::file()
 {
-	string headline;
 	float height,weight,bmi;
 	ifstream inFile("file.in",ios::in);
 	if(!inFile)
